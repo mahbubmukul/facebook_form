@@ -1,0 +1,385 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+.left{
+    float: left
+}
+.right{
+    float: right
+}
+.container{
+    overflow: hidden;
+}
+.header{
+    background-color: #3b5998;
+    min-height: 42px;
+    overflow: hidden;
+}
+.wrapper{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.logo{
+    background-color: #365899;
+    float: left;
+}
+
+.l{
+    width: 170px;
+    height: 33px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.login{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: right;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.input_title {
+    padding-bottom: 4px;
+}
+table tr td {
+    padding: 0 0 0 14px;
+}
+
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+td, td, label {
+    text-align: left;
+}
+label {
+    color: #FFF;
+    cursor: default;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.inputtext1 {
+    background-color: white;
+    user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+}
+
+.uiButtonConfirm {
+    background-color: #4267b2;
+    border-color: #29487d;
+    border-radius: 2px;
+    padding: 3px 7px;
+    text-align: center;
+}
+
+.uiButton {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #fff;
+    background: none;
+    border: 0;
+}
+
+.forgot {
+    color: #CCC;
+}
+
+
+.content{
+    overflow: hidden;
+    min-height: 500px;
+    background-color: #D3D8E8;
+}
+.left_img{
+    width: 60%;
+    min-height: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.left_content{
+    box-sizing: border-box;
+    margin-right: 15px;
+}
+
+.left_text{
+    width: 75%;
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    word-spacing: -1px;
+}
+
+.img {
+    height: 195px;
+}
+.signup{
+    width: 40%;
+    min-height: 400px; 
+    float: right;
+}
+
+.signup_text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.creat_ac {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+}
+.free_text {
+    font-size: 19px;
+    color: #1d2129;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.free_text {
+    padding: 0;
+    margin: 0;
+}
+
+.half_box {
+    
+    margin-right: 8px;
+    float: left;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.box_div {
+    width: 47%;
+    background: white;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+.placeholder {
+    font-size: 18px;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    color: #999;
+    cursor: text;
+    width: 100%;
+}
+
+
+    margin: 0;
+    padding: 0px;
+}
+
+.full {
+    width: 100%; 
+}
+.half {
+    width: 49%;       
+}
+
+.input-text{
+    width: 90%;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border:1px solid #BDC7D8;
+	font-size: 16px;
+	transition: all 0.2s ease;
+}
+
+.divider{
+    clear: both;
+    height: 10px;
+}
+
+.bigger{
+	width: 95%;
+}
+
+.birthday_text{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+select {
+    border: 1px solid #bdc7d8;
+    height: 30px;
+    background-color: rgb(248, 248, 248);
+    align-items: center;
+    border-radius: 5px;
+    font: 15px system-ui;
+}
+
+.sex_c {
+    margin-right: 4px;
+    border-radius: 4px;
+    border-width: 1px;
+    display: inline-block;
+    padding: 5px 0 5px 4px;
+}
+
+input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #FFF;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+    }
+
+input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: darkgreen;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+    }
+
+.male {
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+
+.help_text {
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+}
+
+.no-margin{
+	margin-left: -6px;
+}
+
+.sign_up {
+    font-size: 19px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background-color: #69a74e;
+    background: linear-gradient(#67ae55, #578843);
+    
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer{  
+    overflow: hidden;
+    color: #737373;
+    min-height: 150px;
+}
+
+.uiList {
+    padding-top: 8px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+li
+{
+   display:block;
+   float:left;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+    border-width: 0 0 0 1px;
+    display: inline-block;
+    text-align: -webkit-match-parent;
+}
+
+#contentCurve {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+
+.plm {
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+._51mz {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 20px;
+    width: 300px;
+}
+
+.footer_top{
+    min-height: 40px;
+    margin: 5px 5%;
+    border: 2px solid Gray;
+    box-sizing: border-box;
+}
+.footer_botom{
+    min-height: 80px;
+    margin: 10px 5%;
+    border: 2px solid Gray;
+    box-sizing: border-box;}
